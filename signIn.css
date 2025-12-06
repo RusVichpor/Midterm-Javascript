@@ -1,0 +1,155 @@
+/* Authentication Pages (Login/Signup) Styles */
+.auth-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full viewport height */
+    background-color: #f8f8f8; /* Consistent background */
+    padding: 1rem; /* Add some padding for smaller screens */
+    box-sizing: border-box; /* Include padding in height */
+    background-color: #0d0457;
+}
+
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.auth-card {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 0.75rem; /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Subtle shadow */
+    width: 100%;
+    max-width: 500px; /* Max width for the card */
+    box-sizing: border-box;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+
+}
+
+.auth-heading {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: cursive;
+}
+
+.auth-form {
+    width: 100%;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1rem; /* text-sm */
+    color: #4a5568; /* text-gray-700 */
+    font-weight: 500;
+}
+
+.auth-form input,
+.auth-form select,
+.auth-form textarea {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid #d1d5db; /* border-gray-300 */
+    border-radius: 0.5rem; /* rounded-lg */
+    font-size: 1rem;
+    box-sizing: border-box; /* Important for full width with padding */
+}
+
+.auth-form input:focus,
+.auth-form select:focus,
+.auth-form textarea:focus {
+    outline: none;
+    border-color: #6B46C1; /* Purple focus border */
+    box-shadow: 0 0 0 2px rgba(107, 70, 193, 0.2); /* Purple focus ring */
+}
+
+.form-button {
+    width: 100%;
+    padding: 0.75rem 1.5rem;
+    background-color: #0d0457; /* Same as create-account-button */
+    color: #ffffff;
+    border-radius: 0.5rem; /* Rounded corners for auth buttons */
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 1rem;
+}
+
+.form-button:hover {
+    background-color: #ffb300; /* Darker purple on hover */
+    
+}
+
+.form-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(107, 70, 193, 0.4); /* Stronger focus ring */
+}
+
+.switch-page-link {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    color: #6b7280; /* text-gray-500 */
+}
+
+.switch-page-link a {
+    color: #6B46C1; /* Purple link color */
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.switch-page-link a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive adjustments for auth pages */
+@media (max-width: 480px) {
+    .auth-card {
+        padding: 1.5rem;
+        margin: 1rem; /* Ensure some margin on very small screens */
+    }
+    .auth-heading {
+        font-size: 1.25rem;
+    }
+    .auth-logo {
+        font-size: 1.75rem;
+    }
+}
+
+img {
+    max-width: 100%;
+    width: auto;
+    height: 50px;
+    display: block; /* Removes extra space below images */
+    margin-right: 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-family: cursive;
+    color: #ffae00;
+}
